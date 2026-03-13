@@ -16,14 +16,17 @@ class Habitacion:
 
         
         logger.info("Habitacion reservada con exito")
-    def __str__(self): 
-        return f"Habitacion reservada con exito"
-    
+    def __str__(self):
+        return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
+
 
     def reservar(self):
         self.disponible = False
+        logger.info(f"Habitacion {self.numero} reservada con exito")
+
     def liberar(self): 
-        self.disponible = True 
+        self.disponible = True
+        logger.info(f"Habitacion {self.numero} liberada")
 
     
 class Suite(Habitacion): 
