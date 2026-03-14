@@ -1,5 +1,5 @@
 from datetime import date, time
-from logs import * 
+from logs import logger
 from errors.hotel_errors import * 
 
 

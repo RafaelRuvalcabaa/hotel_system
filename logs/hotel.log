@@ -1,21 +1,33 @@
-2026-03-11 17:47:47,041  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 17:47:47,043  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:25:00,398  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:25:00,398  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:26:31,403  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:26:31,405  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:26:31,405  | INFO | Habitacion reservada con exito 
-2026-03-11 20:27:24,109  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:24,109  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:24,113  | INFO | Habitacion reservada con exito 
-2026-03-11 20:27:43,133  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:43,134  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:55,046  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:55,047  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:55,047  | ERROR | No se ingresó un cliente 
-2026-03-11 20:32:20,707  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:32:20,707  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:32:20,707  | ERROR | Reservacion Hotel: Cliente Null 
-2026-03-11 20:32:44,556  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:32:44,556  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:32:44,556  | INFO | Habitacion reservada con exito 
+2026-03-13 23:00:09,664  | INFO | Restaurantes: CREADO CON EXITO 
+2026-03-13 23:00:09,664  | INFO | Iniciando: Restaurantes.reservado 
+2026-03-13 23:00:09,664  | INFO | Completado: Restaurantes.reservado 
+2026-03-13 23:00:09,664  | INFO | Restaurantes.reservado tardó 0.0000s 
+2026-03-13 23:00:09,664  | INFO | Iniciando: Restaurantes.liberar 
+2026-03-13 23:00:09,664  | INFO | Completado: Restaurantes.liberar 
+2026-03-13 23:00:09,664  | INFO | Habitacion reservada con exito 
+2026-03-13 23:00:09,664  | INFO | Iniciando: Habitacion.reservar 
+2026-03-13 23:00:09,664  | INFO | Completado: Habitacion.reservar 
+2026-03-13 23:00:09,664  | INFO | Habitacion.reservar tardó 0.0000s 
+2026-03-13 23:00:09,664  | INFO | Iniciando: Habitacion.liberar 
+2026-03-13 23:00:09,664  | INFO | Completado: Habitacion.liberar 
+2026-03-13 23:09:47,216  | INFO | Habitacion reservada con exito 
+2026-03-13 23:09:47,218  | ERROR | ReservacionHotel.__init__: argumento None detectado 
+2026-03-13 23:09:56,512  | INFO | Habitacion reservada con exito 
+2026-03-13 23:09:56,512  | ERROR | ReservacionHotel.__init__: argumento None detectado 
+2026-03-13 23:10:18,745  | INFO | Habitacion reservada con exito 
+2026-03-13 23:10:18,747  | ERROR | ReservacionHotel.__init__: argumento None detectado 
+2026-03-13 23:12:07,920  | INFO | Huesped: CREADO CON EXITO! 
+2026-03-13 23:12:07,920  | INFO | Trabajador: CREADO CON EXITO! 
+2026-03-13 23:12:07,920  | INFO | Habitacion reservada con exito 
+2026-03-13 23:12:07,920  | INFO | Iniciando: Habitacion.reservar 
+2026-03-13 23:12:07,920  | INFO | Completado: Habitacion.reservar 
+2026-03-13 23:12:07,920  | INFO | Habitacion.reservar tardó 0.0000s 
+2026-03-13 23:12:07,920  | INFO | Reservacion Hotel: CREADA CON EXITO 
+2026-03-13 23:12:07,920  | INFO | Restaurantes: CREADO CON EXITO 
+2026-03-13 23:12:07,920  | INFO | Iniciando: Restaurantes.reservado 
+2026-03-13 23:12:07,920  | INFO | Completado: Restaurantes.reservado 
+2026-03-13 23:12:07,920  | INFO | Restaurantes.reservado tardó 0.0000s 
+2026-03-13 23:12:07,920  | INFO | Iniciando: Restaurantes.liberar 
+2026-03-13 23:12:07,920  | INFO | Completado: Restaurantes.liberar 
+2026-03-13 23:12:07,920  | INFO | Restaurantes.liberar tardó 0.0000s 
+2026-03-13 23:12:07,920  | INFO | Reserva: CREADA CON EXITO 
