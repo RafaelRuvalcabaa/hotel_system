@@ -1,21 +1,10 @@
-2026-03-11 17:47:47,041  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 17:47:47,043  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:25:00,398  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:25:00,398  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:26:31,403  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:26:31,405  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:26:31,405  | INFO | Habitacion reservada con exito 
-2026-03-11 20:27:24,109  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:24,109  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:24,113  | INFO | Habitacion reservada con exito 
-2026-03-11 20:27:43,133  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:43,134  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:55,046  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:27:55,047  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:27:55,047  | ERROR | No se ingresó un cliente 
-2026-03-11 20:32:20,707  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:32:20,707  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:32:20,707  | ERROR | Reservacion Hotel: Cliente Null 
-2026-03-11 20:32:44,556  | INFO | Huesped: CREADO CON EXITO! 
-2026-03-11 20:32:44,556  | INFO | Trabajador: CREADO CON EXITO! 
-2026-03-11 20:32:44,556  | INFO | Habitacion reservada con exito 
+2026-03-13 20:48:02,929  | INFO | Restaurantes: CREADO CON EXITO 
+2026-03-13 20:48:02,929  | INFO | Iniciando: Restaurantes.reservado 
+2026-03-13 20:48:02,930  | INFO | Completado: Restaurantes.reservado 
+2026-03-13 20:48:02,930  | INFO | Iniciando: Restaurantes.liberar 
+2026-03-13 20:48:02,930  | INFO | Completado: Restaurantes.liberar 
+2026-03-13 20:48:02,930  | INFO | Habitacion reservada con exito 
+2026-03-13 20:48:02,930  | INFO | Iniciando: Habitacion.reservar 
+2026-03-13 20:48:02,930  | INFO | Completado: Habitacion.reservar 
+2026-03-13 20:48:02,930  | INFO | Iniciando: Habitacion.liberar 
+2026-03-13 20:48:02,930  | INFO | Completado: Habitacion.liberar 
