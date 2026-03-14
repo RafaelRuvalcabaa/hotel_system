@@ -1,6 +1,8 @@
 from errors.hotel_errors import NameRest
 from logs import logger 
-from decoradores import log_action
+from decoradores import  log_situations, timer
+
+
 class Restaurantes: 
     def __init__(self, name_restaurant: str, capacidad_mesa: int)-> None: 
         if name_restaurant == "": 
@@ -13,10 +15,11 @@ class Restaurantes:
 
     def __str__(self)-> str: 
         return f"Restaruante creado - {self.name_restaurant}"
-    
-    @log_action
+    @timer
+    @log_situations(level = "info")
     def reservado(self)-> None: 
-        self.disponible = False 
-    @log_action
+        self.disponible = False
+    @timer
+    @log_situations(level = "info")
     def liberar(self)-> None: 
         self.disponible = True

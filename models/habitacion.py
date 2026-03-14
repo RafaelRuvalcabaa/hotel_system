@@ -1,6 +1,6 @@
 from logs import logger
 from errors.hotel_errors import NullFloor, NullNoRoom
-from decoradores import log_action
+from decoradores import  log_situations, timer
 
 class Habitacion: 
     def __init__(self,  numero: int, piso: int, capacidad: int)-> None: 
@@ -19,12 +19,12 @@ class Habitacion:
         logger.info("Habitacion reservada con exito")
     def __str__(self):
         return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
-
-    @log_action
+    @timer
+    @log_situations(level="info")
     def reservar(self):
         self.disponible = False
-        
-    @log_action
+    @timer
+    @log_situations(level="info")
     def liberar(self): 
         self.disponible = True
 
@@ -47,14 +47,6 @@ class SuitePresidencial(Habitacion):
         super().__init__( numero, piso, capacidad)
         self.precio = precio
         self.servicios = ["WIFI", "TV", "Sala", "Cocina"]
-
-
-
-
-
-
-
-
 
 
 
