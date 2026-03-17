@@ -4,28 +4,31 @@ from models.habitacion import Habitacion, Suite, Master, SuitePresidencial
 from models.restaurante import Restaurantes
 from models.reservacion_hotel import ReservacionHotel
 from models.reservacion_restaurante import ReservaRestaurante
+from models.hotel import Hotel
 
-# Personas
-huesped1 = Huesped("Rafael", None, "Lopez", "Calle 123", "CDMX", date(2000, 1, 1), date(2026, 3, 9), date(2026, 3, 12))
-trabajador1 = Trabajador("Ana", "Maria", "Perez", "Av. Reforma 456", "CDMX", date(1995, 6, 15), "Recepcionista", time(8, 0), time(16, 0))
 
-# Habitacion
-hab1 = Habitacion(101, 1, 2)
 
-# Reservacion hotel
-reserva1 = ReservacionHotel(huesped1, hab1, 2)
+# Crear hotel
+hotel = Hotel("Camino Real")
 
-# Restaurante
-rest1 = Restaurantes("El Mexicano", 4)
-rest1.reservado()
-rest1.liberar()
+# Agregar habitaciones
+hotel.agregar_habitacion(Suite(101, 1))
+hotel.agregar_habitacion(Master(102, 2))
+hotel.agregar_habitacion(Suite(103, 1))
+hotel.agregar_habitacion(SuitePresidencial(104, 3))
+hotel.agregar_habitacion(Suite(105, 1))
+hotel.agregar_habitacion(Master(106, 2))
+hotel.agregar_habitacion(Suite(107, 1))
+hotel.agregar_habitacion(SuitePresidencial(10, 3))
 
-# Reservacion restaurante
-reserva_rest = ReservaRestaurante(huesped1, hab1, rest1, 2, date(2026, 3, 10), time(14, 0))
+# Ocupar algunas
+hotel.habitaciones[1].reservar()  # Master 102 ocupada
+hotel.habitaciones[3].reservar()  # SuitePresidencial 104 ocupada
 
-print(huesped1)
-print(trabajador1)
-print(hab1)
-print(reserva1)
-print(rest1)
-print(reserva_rest)
+print("\n--- Habitaciones disponibles ---")
+for h in hotel.filtrar_habitacion(disponible=True):
+    print(h)
+
+print("\n--- Habitaciones ocupadas ---")
+for h in hotel.filtrar_habitacion(disponible=False):
+    print(h)
