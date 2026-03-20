@@ -34,3 +34,18 @@ def validate_input(func):
                 raise ValueError(f"{func.__qualname__} recibió un argumento None")
         return func(*args, **kwargs)
     return wrapper
+
+
+from functools import wraps
+
+def decorador(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs): 
+        print("Antes")
+        result = func(*args, **kwargs)
+        print("Depues")
+       
+    return wrapper
+
+
+ 

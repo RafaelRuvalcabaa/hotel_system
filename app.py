@@ -25,6 +25,7 @@ hotel.agregar_habitacion(SuitePresidencial(10, 3))
 hotel.habitaciones[1].reservar()  # Master 102 ocupada
 hotel.habitaciones[3].reservar()  # SuitePresidencial 104 ocupada
 
+
 print("\n--- Habitaciones disponibles ---")
 for h in hotel.filtrar_habitacion(disponible=True):
     print(h)
@@ -32,3 +33,24 @@ for h in hotel.filtrar_habitacion(disponible=True):
 print("\n--- Habitaciones ocupadas ---")
 for h in hotel.filtrar_habitacion(disponible=False):
     print(h)
+
+print("\n--- Disponibles (comprehension) ---")
+for h in hotel.habitaciones_disponibles():
+    print(h)
+
+print("\n--- Precios ---")
+print(hotel.precio_por_habitacion())
+
+print("\n--- Resumen ---")
+print(hotel.resumen_ocupacion())
+
+pisos = [
+    [Suite(101, 1), Suite(103, 1), Suite(105, 1)],   # piso 1
+    [Master(102, 2), Master(106, 2)],                  # piso 2
+    [SuitePresidencial(104, 3), SuitePresidencial(10, 3)]  # piso 3
+]
+
+habitaciones = [hab for piso in pisos for hab in piso]
+
+for hab in habitaciones:
+    print(hab)

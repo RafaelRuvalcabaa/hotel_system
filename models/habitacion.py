@@ -14,9 +14,9 @@ class Habitacion:
         self.piso = piso 
         self.capacidad = capacidad
         self.disponible = True
+        logger.info("Habitacion reservada con exito")
 
         
-        logger.info("Habitacion reservada con exito")
     def __str__(self):
         return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
     @timer
