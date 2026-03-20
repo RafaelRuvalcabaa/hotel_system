@@ -5,6 +5,8 @@ from models.restaurante import Restaurantes
 from models.reservacion_hotel import ReservacionHotel
 from models.reservacion_restaurante import ReservaRestaurante
 from models.hotel import Hotel
+from errors.hotel_errors import BadOperation
+from contexts_manager import GestorReservacion
 
 
 
@@ -54,3 +56,10 @@ habitaciones = [hab for piso in pisos for hab in piso]
 
 for hab in habitaciones:
     print(hab)
+
+
+habitacion = hotel.habitaciones[0]  # Suite 101
+
+with GestorReservacion(habitacion) as hab:
+    print(f"Procesando pago de {hab.numero}...")
+    raise ValueError("Pago rechazado")

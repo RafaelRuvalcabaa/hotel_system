@@ -20,3 +20,6 @@ class HabitacionReserva(Exception): pass
 class MesaError(Exception): pass 
 
 
+# Contex Manager 
+
+class BadOperation(Exception): pass 

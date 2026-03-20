@@ -19,11 +19,10 @@ class Habitacion:
         
     def __str__(self):
         return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
-    @timer
+    
     @log_situations(level="info")
     def reservar(self):
         self.disponible = False
-    @timer
     @log_situations(level="info")
     def liberar(self): 
         self.disponible = True
