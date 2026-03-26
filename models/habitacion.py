@@ -1,4 +1,5 @@
 from logs import logger
+import asyncio
 from errors.hotel_errors import NullFloor, NullNoRoom
 from decoradores import  log_situations, timer
 
@@ -21,10 +22,12 @@ class Habitacion:
         return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
     
     @log_situations(level="info")
-    def reservar(self):
+    async def reservar(self):
+        await asyncio.sleep(0.5)
         self.disponible = False
     @log_situations(level="info")
-    def liberar(self): 
+    async def liberar(self): 
+        await asyncio.sleep(0.5)
         self.disponible = True
 
     

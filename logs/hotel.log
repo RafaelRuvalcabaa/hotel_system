@@ -406,3 +406,64 @@
 2026-03-19 21:59:58,816  | INFO | Completado: Habitacion.reservar 
 2026-03-19 21:59:58,816  | INFO | Iniciando: Habitacion.liberar 
 2026-03-19 21:59:58,816  | INFO | Completado: Habitacion.liberar 
+2026-03-25 20:38:42,823  | DEBUG | Using proactor: IocpProactor 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,827  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,831  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:42,831  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:38:43,338  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:38:43,338  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:38:43,843  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:38:43,843  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,843  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,843  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,843  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,843  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,845  | INFO | Habitacion reservada con exito 
+2026-03-25 20:38:43,845  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | DEBUG | Using proactor: IocpProactor 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,483  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,488  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,488  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:02,488  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:40:02,997  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:40:02,997  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:40:03,512  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Habitacion reservada con exito 
+2026-03-25 20:40:03,512  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:40:04,024  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:40:04,024  | INFO | Iniciando: Habitacion.liberar 
+2026-03-25 20:40:04,529  | INFO | Completado: Habitacion.liberar 
+2026-03-25 20:41:14,761  | DEBUG | Using proactor: IocpProactor 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Habitacion reservada con exito 
+2026-03-25 20:41:14,790  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:41:15,300  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:41:15,300  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:41:15,801  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:41:15,801  | INFO | Iniciando: Habitacion.reservar 
+2026-03-25 20:41:16,313  | INFO | Completado: Habitacion.reservar 
+2026-03-25 20:41:16,313  | INFO | Iniciando: Habitacion.liberar 
+2026-03-25 20:41:16,815  | INFO | Completado: Habitacion.liberar 
