@@ -2,10 +2,21 @@
 from models.habitacion import Habitacion, Suite, Master, SuitePresidencial
 
 class Hotel: 
+
+    _instancia = None
+
+    def __new__(cls, *args, **kwargs): 
+        if cls._instancia is None:
+              cls._instancia = super().__new__(cls)
+        return cls._instancia
+    
     def __init__(self, name_hotel: str)-> None: 
+        if hasattr(self, '_inicializado'):
+             return 
         self.name_hotel = name_hotel
         #Aqui se guardan todas las habitaciones
         self.habitaciones = []
+        self._inicializado = True 
     
     
     def agregar_habitacion(self, habitacion: Suite| Master | SuitePresidencial ):
