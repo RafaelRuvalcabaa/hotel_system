@@ -7,6 +7,3 @@ logging.basicConfig(filename="logs/hotel.log", level = logging.DEBUG, format= "%
 
 
 logger = logging.getLogger(__name__)
-
-
-

@@ -1,5 +1,7 @@
 from logs import logger
-from errors.hotel_errors import * 
+import asyncio
+from errors.hotel_errors import NullFloor, NullNoRoom
+from decoradores import  log_situations, timer
 
 class Habitacion: 
     def __init__(self,  numero: int, piso: int, capacidad: int)-> None: 
@@ -13,17 +15,20 @@ class Habitacion:
         self.piso = piso 
         self.capacidad = capacidad
         self.disponible = True
+        logger.info("Habitacion reservada con exito")
 
         
-        logger.info("Habitacion reservada con exito")
-    def __str__(self): 
-        return f"Habitacion reservada con exito"
+    def __str__(self):
+        return f"Habitacion {self.numero} - Piso {self.piso} - {'Disponible' if self.disponible else 'Ocupada'}"
     
-
-    def reservar(self):
+    @log_situations(level="info")
+    async def reservar(self):
+        await asyncio.sleep(0.5)
         self.disponible = False
-    def liberar(self): 
-        self.disponible = True 
+    @log_situations(level="info")
+    async def liberar(self): 
+        await asyncio.sleep(0.5)
+        self.disponible = True
 
     
 class Suite(Habitacion): 
@@ -44,14 +49,6 @@ class SuitePresidencial(Habitacion):
         super().__init__( numero, piso, capacidad)
         self.precio = precio
         self.servicios = ["WIFI", "TV", "Sala", "Cocina"]
-
-
-
-
-
-
-
-
 
 
 
